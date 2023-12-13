@@ -214,6 +214,16 @@
     
     
     /* INIZIO FOOTER */ 
+
+
+    .container-footer{
+        max-width: 1193px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    
     footer .footer-nav{
         max-width: 1193px;
         height: 80px;
@@ -232,24 +242,80 @@
     footer .div1{
         height: 560px;
         width: 360px;
+        padding-top: 30px;
+        padding-left: 20px;
         border: 1px dotted black;
-    background-color: rgba(240, 128, 128, 1);
+    }
+
+    footer strong{
+        font-size: 20px;
+        color:rgba(116, 139, 223, 1) ;
+    }
+    footer img{
+        width: 24px;
+        height: 16px;
+    }
+   
+    footer span,i{
+        color: white;
+    }
+
+    .div1 div:nth-child(1){
+        margin-bottom: 10px;
+    }
+    
+    .div1 div:nth-child(3){
+        margin-top: 10px;
     }
     
     footer .div2{
-     height: 560px;  
+     height: 560px; 
+     padding-top: 30px; 
      flex-grow: 1; 
      display: flex;
-     
-    background-color:rgba(32, 178, 170, 1);
+     justify-content: space-between;
+    border: 1px white solid;
     }
     
-    footer .sotto-div{
-    flex-grow: 1;
+    .div2 b{
+        color:rgba(116, 139, 223, 1) ;
+    }
+
+    .div2 li{
+        color: white;
+    }
+    
+    .prodotto ul{
+        flex-grow: 1;
     height: auto;
     border: 1px white dotted;
+        display: flex;
+        flex-direction: column;
     }
-    
+
+    .compagnia ul{
+        flex-grow: 1;
+    height: auto;
+    border: 1px white dotted;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .risorse ul{
+        flex-grow: 1;
+    height: auto;
+    border: 1px white dotted;
+        display: flex;
+        flex-direction: column;
+    }
+    .norme ul{
+        flex-grow: 1;
+    height: auto;
+    border: 1px white dotted;
+        display: flex;
+        flex-direction: column;
+    }
+
     hr{
         display: block;
         border-width: 1px;
