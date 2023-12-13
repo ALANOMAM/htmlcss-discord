@@ -14,17 +14,22 @@
     }
     
     /* INIZIO HEADER*/
+
+    header{
+        background:url("img/jumbo.png");
+        background-position: center;
+        background-size: cover;
+    }
     header section:first-child{
     height:80px;
     padding-top: 15px;
-    background-color:rgba(173, 216, 230, 1) ;
+    
     }
     nav{
         max-width: 1193px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        background-color: rgba(218, 165, 32, 1);
     }
     
     nav .logo{
@@ -74,15 +79,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color:rgba(0, 0, 139, 1) ;
+
     }
     
-    header section:nth-child(2) .violet{
-        max-width: 900px;  /* metter max-width mi dice che posso arrivare fin li al massimo */
-         width: 100%; /* with mi dice di occupare 100% dello spazio disponibile e sarà quindi 900px. se non metto questo non si vede niente*/
-        height: 400px; 
-    
+    header section:nth-child(2) .intro{
+         max-width:500px;
+         widows: 100%;
+         height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
         background-color:rgba(238, 130, 238, 1);
+    }
+
+    .intro h1{
+        color:white;
+        margin-bottom: 50px;
+    }
+    .intro p{
+    margin-bottom: 10px;
+    }
+    .intro button{
+        padding: 10px 20px;
+        border-radius: 20px;
     }
     /* FINE HEADER*/
     
